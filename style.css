@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  overflow-x:hidden;  /*для горизонтального*/ 
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block; 
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of reset CSS */
+/* Custom CSS for the page */
+
+.flex-container {
+  display: flex;
+  justify-content: space-between; 
+  flex-flow: row;
+  flex-direction: row;  
+  height: 100%;
+  padding: 15px;
+
+
+
+}
+
+.flex-item {
+  background-color: lightblue;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+
+button {
+  padding: 10px 20px;
+  block-size: 50px;
+  inline-size: 100px;
+  align-self: stretch;
+  border: none;
+  background-color: white;
+}
+
+p,  h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+
+
+}
+
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  
+}
+
+
+.flex-containerWD {
+  display: flex;
+  justify-content: space-around; 
+  flex-flow: row;
+  flex-direction: row;  
+  height: 100%;
+  flex-wrap: wrap;
+
+}
+
+.WD1 {
+  display: flex;
+  background-color: #333333;
+  width: 388;
+  height: 409px;
+  color: white;
+  text-align: left;
+  text-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;  
+  padding: 40px;
+
+}
+
+.WD2i3 {
+   display: flex;
+  background-color: #D6D6D6;
+  width: 388;
+  height: 409px;
+  color: #333333;
+  text-align: left;
+  text-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;  
+  padding: 40px;
+}
+
+.flex-containerP {
+  display: flex;
+  justify-content: center; 
+  flex-flow: row;
+  flex-direction: row;
+  height: 100%;
+  flex-wrap: nowrap;
+
+}
+
+.col-block {
+  margin: 32px;
+}
+
+.column1 {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;  
+ 
+}
+
+.column2 {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;  
+
+}
+
+.column3 {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;  
+
+}
+
+.flex-containerCT {
+  display: flex;
+  justify-content: start; 
+  flex-flow: row;
+  flex-direction: row;
+  height: 100%;
+  flex-wrap: nowrap;
+
+}

@@ -26,10 +26,14 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block; 
+    display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
+  font-family: "
+  "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 ol, ul {
 	list-style: none;
@@ -50,17 +54,17 @@ table {
 /* End of reset CSS */
 /* Custom CSS for the page */
 
+
 .flex-container {
   display: flex;
   justify-content: space-between; 
   flex-flow: row;
   flex-direction: row;  
-  height: 100%;
+  height: 200px;
   padding: 15px;
   margin: auto;
-
-
 }
+
 
 .flex-item {
   background-color: lightblue;
@@ -73,20 +77,139 @@ table {
 
 
 .button {
+  display: inline-flex;
   padding: 10px 20px;
   block-size: 50px;
   inline-size: 100px;
   border: none;
   background-color: white;
+  gap: 10px;
+  align-items: center;
 }
 
 p,  h1, h2, h3, h4, h5, h6 {
-  font-family: Arial, sans-serif;
   line-height: 1.5;
-
-
 }
 
+.Sarah {
+  display: flex;
+  justify-content: center; 
+  flex-flow: row;
+  flex-direction: row;
+  align-items: start;
+  padding: 56px, 200px;
+}
+.overSarah {
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  padding-right: 56px;
+}
+
+.hi {
+  font-size: 32px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.name {
+  color: #333;
+  font-size: 74px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.job {
+  color: #333;
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.extraInfo {
+  color: #333;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.flex-containerSocial1 {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.social1Networks{
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.social2Networks{
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.network {
+  background-color: white;
+  border: 0px solid;
+}
+
+.scroll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  gap: 12px;
+}
+
+.textScroll{
+  color: #333;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.space {
+  display: flex;
+  width: 100px;
+  padding: 4px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.arrows {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: left;
+  overflow: hidden;
+}
+
+.section_video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 220px;
+  padding: 140px 0;
+}
+
+.learnAboutMe {
+  color: #333;
+  font-family: "Rubik", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
 .flex-center {
   display: flex;
@@ -95,15 +218,56 @@ p,  h1, h2, h3, h4, h5, h6 {
   float: center;
 }
 
+.section {
+  display: flex;
+  width: 100%;
+  max-width: 1520px;
+  padding: 140px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin: 0 auto;
+}
+
+.headtitle {
+  color: #333333;
+  font-family: "Rubik", sans-serif;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 
 .flex-containerWD {
   display: flex;
-  justify-content: space-around; 
-  flex-flow: row;
-  flex-direction: row;  
-  height: 100%;
-  flex-wrap: wrap;
+  width: 1262px;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.fieldOfActivity {
+  font-family: "Rubik", sans-serif;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.PwhatDo {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.readMore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
 }
 
 .WD1 {
@@ -111,17 +275,19 @@ p,  h1, h2, h3, h4, h5, h6 {
   background-color: #333333;
   width: 388;
   height: 409px;
+  padding: 20px 40px;
   color: white;
   text-align: left;
   text-wrap: wrap;
   flex-direction: column;
-  justify-content: center;  
-  padding: 40px;
-
+  justify-content: center;
+  gap: 60px;
+  flex-shrink: 0;
+  
 }
 
-.WD2i3 {
-   display: flex;
+.WD2and3 {
+  display: flex;
   background-color: #D6D6D6;
   width: 388;
   height: 409px;
@@ -130,7 +296,47 @@ p,  h1, h2, h3, h4, h5, h6 {
   text-wrap: wrap;
   flex-direction: column;
   justify-content: center;  
-  padding: 40px;
+  padding: 20px 40px;
+  gap: 60px;
+  flex-shrink: 0;
+}
+
+.slider {
+  display: flex;
+  width: 1262px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categoriesP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  overflow: hidden;
+}
+
+.boldTxtP {
+  color: #333;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+
+.normalTxtP {
+  color: #333;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.dashP {
+    overflow: hidden;
 }
 
 .flex-containerP {
@@ -170,13 +376,47 @@ p,  h1, h2, h3, h4, h5, h6 {
 
 .flex-containerCT {
   display: flex;
-  justify-content: start; 
-  flex-flow: row;
-  flex-direction: row;
-  height: 100%;
-  flex-wrap: nowrap;
-  margin-bottom: 140px;
+  align-items: center;
+  gap: 80px;
+  padding: 0 20px;
+}
+
+.flex-containerCT img {
+    object-fit: contain;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 95px;
+  align-self: stretch;
+  overflow: hidden;
+  width: 70%;
+}
+
+.textCT {
+  color: #333;
+  font-family: "Rubik", sans-serif;
   font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  overflow: hidden;
+}
+.QuoteLeft {
+  display: flex;
+  padding: 4px;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+.QuoteRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  rotate: 180deg;
 }
 
 .section_hello{
@@ -272,7 +512,7 @@ p,  h1, h2, h3, h4, h5, h6 {
 }
 
 .section_myblog {
-   display: flex;
+  display: flex;
   justify-content: center;
   flex-flow: column;
   flex-direction: column;
@@ -297,6 +537,14 @@ p,  h1, h2, h3, h4, h5, h6 {
   position: relative;
   overflow: hidden;
 }
+.blogtext { 
+    color: #FFF;
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 .my_blog_img::before {
   content:"";
@@ -306,7 +554,6 @@ p,  h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%);
-
 }
   
 
@@ -372,4 +619,94 @@ p,  h1, h2, h3, h4, h5, h6 {
 .dubblearrow {
   float: right;
   padding: 10px;
+}
+
+.section_hireme {
+  width: 100%;
+  height: 100%;
+  padding: 100px 0;
+  position: relative; /* Position relative to allow absolute positioning of the pseudo-element */
+  overflow: hidden;
+}
+
+.hireme-content {
+  display: flex;
+  justify-content: center;
+  flex-flow: row;
+  flex-direction: row;
+  gap: 60px;
+  padding: 140px 0;
+}
+
+.hireme-text {
+  overflow: hidden;
+  font-size: 40px;
+
+}
+
+.form {
+  display: flex;
+  background-color: #333333;
+  justify-content: center;
+  flex-flow: column;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  gap: 60px;
+  padding: 80px 60px;
+  width: 50%;
+}
+.form label {
+  color: #FFF;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  overflow: hidden;
+  }
+
+
+
+
+.underlining {
+  color: white;
+  overflow: hidden;
+}
+
+.extra-information {
+  font-size: 20px;
+  overflow: hidden;
+}
+
+.place-for-filling-in{ 
+  width: 100%;
+}
+
+.place-for-filling-in input, textarea {
+  background: #333;
+  color: #FFF;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #FFF;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  outline: none;
+  width: 100%;
+}
+
+.form button { 
+  block-size: 40px;
+  inline-size: 100px;
+  border: none;
+  font-size: 14px;
+  padding: 10px 20px;
+  margin-left: auto;
+}
+.footer {
+  float: right;
+  overflow: hidden;
 }

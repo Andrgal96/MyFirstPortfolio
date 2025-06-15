@@ -1,225 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Portfolio</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     </head>
-    <body width="1920px" >
-        <div class="flex-container">
+    <body width="1920px">
+        <header class="flex-container ">     
+                <a href="/"><img src="Images/BlackIcons/Logo 1.svg" alt="Фzart" width="150" height="45"></a>
+            <div>
+                <button class="button"><img src="Images/BlackIcons/search.png" alt="search" width="16" height="16"></button>
+            </div>
+            <div>
+                <button class="button"> Menu <img src="Images/hamburger.svg" alt="menu" width="20" height="16"> </button>
+            </div>
+        </header>
 
-                
-            <div>
-                <h1><img src="Images/BlackIcons/Logo 1.svg" alt="Фzart" width="174" lang="69"></h1>
-                
-            </div>
-            <div>
-                <button class="button"><img src="Images/BlackIcons/search.png" alt="search" width="32" lang="32"></button>
-            </div>
-            <div>
-                <button class="button"><img src="Images/BlackIcons/Menu.png" alt="menu" width="102" lang="28"></button>
-            </div>
-        </div>
-
-            <blockquote class="flex-center">
-                <div>
-                    <h2>—— Hello</h2>
-                    <h1>I'm Sarah Jackson</h1>
-                    <h4>A UX/UI designer, product designer, content creator and creative director.</h4>
-                    <p>Of course, there's so much more to me than just a few fancy titles. Scroll down <br> and get to know me.</p>
+            <blockquote class="Sarah flex-center">
+                <div class="overSarah">
+                    <h1 class="hi" >— Hello</h1>
+                    <h2 class="name">I'm Sarah Jackson</h2>
+                    <h3 class="job">A UX/UI designer, product designer, content <br> creator and creative director.</h3>
+                    <p class="extraInfo">Of course, there's so much more to me than just a few fancy titles. Scroll down <br> and get to know me.</p>
                 </div>
-            <img src="Images/Image Container.jpg" alt="Sarah Jackson" width="550" lang="640" style="margin: 20px;">
+                <img src="Images/Image Container.jpg" alt="Sarah Jackson" width="550px" height="640px">
             </blockquote>
-            <div>
-                <img src="Images/BlackIcons/facebook 1.png"> 
-                <img src="Images/BlackIcons/linkedin-logo 1.png">
-                <img src="Images/BlackIcons/behance 1.png">
-                <img src="Images/BlackIcons/twitter 1.png">
-                <img src="Images/BlackIcons/dribbble 1.png">
-                <p style="text-align: center;">SCROLL</p>
-                <div class="flex-center">
-                   <img src="Images/BlackIcons/right-arrow 1.png" style="align-self: center;">
+            <div class="flex-containerSocial">
+                <div class="social1Network">
+                    <button class="network"><img src="Images/svgIcons/facebook 1.svg" width="20px" height="20px"></button>
+                    <button class="network"><img src="Images/svgIcons/linkedin-logo 1.svg" width="20px" height="20px"></button>
+                    <button class="network"><img src="Images/svgIcons/behance 1.svg" width="20px" height="20px"></button>
+                    <button class="network"><img src="Images/svgIcons/twitter 1.svg" width="20px" height="20px"></button>
+                    <button class="network"><img src="Images/svgIcons/dribbble 1.svg" width="20px" height="20px"></button>
                 </div>
+                <div class="scroll">
+                    <p class="textScroll">SCROLL</p>
+                    <img src="Images/BlackIcons/right-arrow 1.png">
+                </div>
+                <div class="space"></div>
             </div>
-            <div class="flex-center">
-                <a>
-                <p class="flex-center">Learn all about me in 60 seconds.</p>
-                <img src="Images/Video Container.jpg" alt="video"  width="550" lang="640">
-                </a>
-            </div>
-            
-            <br><br><br>
-            <h1 class="flex-center"> What I Do</h1>
-
+        <section class="section_video flex-center">
+            <p class="learnAboutMe flex-center">Learn all about me in 60 seconds.</p>
+            <img src="Images/Video Container.jpg" alt="video"  width="1262" height="715">
+        </section>
+        <section class="section"  >
+            <h1 class="headtitle flex-center"> What I Do</h1>
             <div class="flex-containerWD">
                 <div class="WD1">
-                    <h1> Graphic <br> Design</h1>
-                    <p>User interface design, user <br> experience design, user research.</p>
-                    <br><br><br>
-                    <h5>Read more <img src="Images/Arrow 1.svg"  width="32" lang="32"> </h5>
-                    
+                    <div>
+                        <h1 class="fieldOfActivity"> Ui & UX  <br> Design</h1>
+                        <p class="PwhatDo">User interface design, user <br> experience design, user research.</p>
+                    </div>
+                   <div class="readMore">
+                        <h5>Read more</h5>
+                        <img src="Images/WhiteIcons/Arrow 1.svg"  width="41" height="auto"> 
+                    </div>
                 </div>
-                <div class="WD2i3">
-                    <h1>Ui & UX <br> Design</h1>
-                    <p>User interface design, user <br> experience design, user research.</p>
-                    <br><br><br>
-                    <h5>Read more <img src="Images/BlackIcons/Arrow 1.png"  width="32" lang="32"> </h5>
+                <div class="WD2and3">
+                    <div>
+                        <h1 class="fieldOfActivity">Graphic<br> Design</h1>
+                        <p class="PwhatDo">User interface design, user <br> experience design, user research.</p>
+                    </div>
+                    <div class="readMore">
+                        <h5>Read more</h5>
+                        <img src="Images/BlackIcons/Arrow 1.png"  width="50" height="auto"> 
+                    </div>
                 </div>
-                <div class="WD2i3">
-                    <h1>Web<br> Development</h1>
-                    <p>User interface design, user <br> experience design, user research.</p>
-                    <br><br><br>
-                    <h5>Read more <img src="Images/BlackIcons/Arrow 1.png"  width="32" lang="32"> </h5>
+                <div class="WD2and3">
+                    <div>
+                        <h1 class="fieldOfActivity">Web<br> Development</h1>
+                        <p class="PwhatDo">User interface design, user <br> experience design, user research.</p>
+                    </div>
+                    <div class="readMore">
+                        <h5>Read more</h5>
+                        <img src="Images/BlackIcons/Arrow 1.png"  width="50" height="auto"> 
+                    </div>
                 </div>
             </div> 
-            <br><br><br>
-            <div class="flex-center"> 
-                <img src="Images/BlackIcons/Slider.png"  alt="Slider" width="108" lang="20">
+             
+            <div class="slider"> 
+                <div class="space">
+                </div>
+                <img src="Images/BlackIcons/Slider.png"  alt="Slider" width="108" height="20">
+                <div class="arrows">
+                    <img src="Images/BlackIcons/Arrow 2.png" alt="«————" width="24" height="auto">
+                    <img src="Images/BlackIcons/Arrow 1.png" alt="————»" width="24" height="auto">
+                </div>
             </div> 
-            <br><br><br><br><br><br>
-
-            <h1 class="flex-center">Portfolio</h1>
-            <p class="flex-center"> <b>All</b> — UI & UX — Graphic Design — Web Development</p>
-            <div class="flex-containerP">
+        </section>
+              
+        <section class="section">
+            <h1 class="headtitle">Portfolio</h1>
+            <div class="categoriesP"> <div class="boldTxtP">All</div> <div class="dashP">—</div> <div class="normalTxtP">UI & UX</div><div class="dashP"> —</div> <div class="normalTxtP"> Graphic Design</div><div class="dashP"> — </div><div class="normalTxtP">Web Development</div></div>
+            <div class="flex-containerP ">
                 <div class="column1"> 
-                    <img src="Images/Portfolio/Col-block1.jpg" alt="project1" class="col-block" width="90%" lang="90%">
-                    <img src="Images/Portfolio/Col-block2.jpg" alt="project2" class="col-block" width="90%" lang="90%">         
+                    <img src="Images/Portfolio/Col-block1.jpg" alt="project1" class="col-block" width="90%" height="90%">
+                    <img src="Images/Portfolio/Col-block2.jpg" alt="project2" class="col-block" width="90%" height="90%">         
                 </div>
                 <div class="column2">
-                    <img src="Images/Portfolio/Col-block3.jpg" alt="project3" class="col-block" width="90%" lang="90%">
-                    <img src="Images/Portfolio/Col-block4.jpg" alt="project4" class="col-block" width="90%" lang="90%">
+                    <img src="Images/Portfolio/Col-block3.jpg" alt="project3" class="col-block" width="90%" height="90%">
+                    <img src="Images/Portfolio/Col-block4.jpg" alt="project4" class="col-block" width="90%" height="90%">
                 </div>
                 <div class="column3">
-                    <img src="Images/Portfolio/Col-block5.png" alt="project5" class="col-block" width="90%" lang="90%">
-                    <img src="Images/Portfolio/Col-block6.jpg" alt="project6" class="col-block" width="90%" lang="90%">
+                    <img src="Images/Portfolio/Col-block5.png" alt="project5" class="col-block" width="90%" height="90%">
+                    <img src="Images/Portfolio/Col-block6.jpg" alt="project6" class="col-block" width="90%" height="90%">
                 </div>
             </div>
-            <br><br><br>
-            <div class="flex-center"> 
-                <img src="Images/BlackIcons/Slider.png"  alt="Slider" width="108" lang="20">
+            <div class="slider"> 
+                <div class="space">
+                </div>
+                <img src="Images/BlackIcons/Slider.png"  alt="Slider" width="108" height="20">
+                <div class="arrows">
+                    <img src="Images/BlackIcons/Arrow 2.png" alt="«————" width="24" height="auto">
+                    <img src="Images/BlackIcons/Arrow 1.png" alt="————»" width="24" height="auto">
+                </div>
             </div> 
-            <br><br><br>
-            <h1 class="flex-center" style="margin: 200;">Client Testimonial</h1>
-            <div class="flex-containerCT">
-                <img src="Images/Client.jpg" alt="Jared Warner" style="margin-left: 160px;margin-right: 100px;" width="486" lang="589"> 
-                    <div> 
-                        <img src="Images/BlackIcons/_x36_5.QuoteLeft.png" alt=' " ' width="32" lang="32">
-                        <blockquote> <h4>But i must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and i will give you a complete</h4></blockquote>
-                        <img src="Images/BlackIcons/_x36_5.QuoteLeft.png" alt=' " ' style="rotate: 180deg; float: right; margin: 20px;" width="32" lang="32">
-                        <p style="margin-top: 95px;">Jared Warner</p>
-                        <p style="margin-bottom: 95px;">CEO Of Zeo</p>    
-                        <img src="Images/BlackIcons/Slider4.png" alt="0 o o o" width="10%" lang="10%">  
+        </section>  
+        <section class="section">   
+            <h1 class="headtitle">Client Testimonial</h1>
+            <div class="flex-containerCT" >
+                <img src="Images/Client.jpg" alt="Jared Warner" width="486px" height="589px"> 
+                    <div class="testimonial">
+                        <div>
+                            <div class="QuoteLeft"><img src="Images/BlackIcons/_x36_5.QuoteLeft.png" alt=' " ' width="32" height="32"></div>
+                            <blockquote> <h4 class="textCT">But i must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and i will give you a complete</h4></blockquote>
+                            <div class="QuoteRight"><img src="Images/BlackIcons/_x36_5.QuoteLeft.png" alt=' " ' width="32" height="32"></div>
+                        </div> 
+                        <div>
+                            <p>Jared Warner</p>
+                            <p>CEO Of Zeo</p>    
+                        </div>
+                        <img src="Images/BlackIcons/Slider4.png" alt="0 o o o" width="10%" height="10%">  
                     </div>
             </div>
-            <section class="section_hello">
-                <div class="flex-container_hello"> <!-- to do the same on the rest of the containers -->  
-                    <div class="titles">
-                        <h3 class="sub_title"> Get in touch</h3>
-                        <h2 class="title"> Just Say Hello!</h2>
-                    </div>
-                    <button class="button">Contact</button>
-                    <div>
-                        <img src="Images/WhiteIcons/Scroll.png">   
-                    </div>
+        </section>    
+        <section class="section section_hello">
+            <div class="flex-container_hello"> <!-- to do the same on the rest of the containers -->  
+                 <div class="titles">
+                    <h3 class="sub_title"> Get in touch</h3>
+                    <h2 class="title"> Just Say Hello!</h2>
                 </div>
-            </section>>
-            <section class="section_project">
-                <div class="flex-container_project"> <!-- to do the same on the rest of the containers -->  
-                    <div>
-                        <div class="number">750+</div>
-                        <div class="notion">Completed Projects</div>
-                    </div>
-                    <div>
-                        <div class="number">15+</div>
-                        <div class="notion">On going projects</div>
-                    </div>
-                    <div>
-                        <div class="number">250+</div>
-                        <div class="notion">Awards</div>
-                    </div>
-                    <div>
-                        <div class="number">700+</div>
-                        <div class="notion">Happy Clients</div>
-                    </div>
-                </div>    
-            </section>
-            <section class="section_myblog">
-                <h2 class="flex-center title">My Blog</h2>
-                <div class="flex-container_myblog"> <!-- to do the same on the rest of the containers -->  
-                    
-                    <div class="my_blog_article">
-                        <div class="my_blog_img">
-                            <img src="Images/Krosovok.jpg" alt="Red sneaker" width="380px" height="337px">
-                            <p class="my_blog_date">25 July 2020</p>
-                        </div>
-                        <div class="my_blog_content">
-                            <div class="my_blog_content_header">
-                                <p>25 comments</p>
-                                <p> 17 likes</p>
-                                <p>By Adams</p>
-                            </div>
-                            <div class="my_blog_content_description">
-                                <p>Design is no just color it <br> speaks visually...</p>
-                            </div> 
-                            <div class="my_blog_content_action">
-                                <p class="whiteText">Read more  <img src="Images/WhiteIcons/Arrow 1.svg" alt="—————>" class="rightarrow" width="32" lang="32"></p>
-                            </div>
-                 
-                        </div>
-                    </div>
-
-                    <div class="my_blog_article">
-                        <div class="my_blog_img">
-                            <img src="Images/butylka.jpg" alt="Red sneaker" width="380px" height="337px">
-                            <p class="my_blog_date">29 July 2020</p>
-                        </div>
-                        <div class="my_blog_content">
-                            <div class="my_blog_content_header">
-                                <p>25 comments</p>
-                                <p> 17 likes</p>
-                                <p>By Adams</p>
-                            </div>
-                            <div class="my_blog_content_description">
-                                <p>Design is no just color it <br> speaks visually...</p>
-                            </div> 
-                            <div class="my_blog_content_action">
-                                <p class="whiteText">Read more  <img src="Images/WhiteIcons/Arrow 1.svg" alt="—————>" class="rightarrow" width="32" lang="32"></p>
-                            </div>
-                 
-                        </div>
-                    </div>
-
-                    <div class="my_blog_article">
-                        <div class="my_blog_img">
-                            <img src="Images/twitter.jpg" alt="Red sneaker" width="380px" height="337px">
-                            <p class="my_blog_date">27 July 2020</p>
-                        </div>
-                        <div class="my_blog_content">
-                            <div class="my_blog_content_header">
-                                <p>25 comments</p>
-                                <p> 17 likes</p>
-                                <p>By Adams</p>
-                            </div>
-                            <div class="my_blog_content_description">
-                                <p>Design is no just color it <br> speaks visually...</p>
-                            </div> 
-                            <div class="my_blog_content_action">
-                                <p class="whiteText">Read more  <img src="Images/WhiteIcons/Arrow 1.svg" alt="—————>" class="rightarrow" width="32" lang="32"></p>
-                            </div>
-                 
-                        </div>
-                    </div>
+                <button class="button">Contact</button>
+                <div>
+                    <img src="Images/WhiteIcons/Scroll.png">   
+                </div>
+            </div>
+        </section>
+        <section class="section section_project">
+            <div class="flex-container_project"> <!-- to do the same on the rest of the containers -->  
+                <div>
+                    <div class="number">750+</div>
+                    <div class="notion">Completed Projects</div>
                 </div>
                 <div>
-                    <div class="flex-center"> 
-                        <img src="Images/BlackIcons/Slider.png"  alt="Slider" width="108" lang="20">
-                    </div>    
-                    <img src="Images/BlackIcons/Arrow 1.png" class="dubblearrow" alt="<—————" width="32" lang="32">
-                    <img src="Images/BlackIcons/Arrow 2.png" class="dubblearrow" alt="—————>" width="32" lang="32">
+                    <div class="number">15+</div>
+                    <div class="notion">On going projects</div>
+                </div>
+                <div>
+                    <div class="number">250+</div>
+                    <div class="notion">Awards</div>
+                </div>
+                <div>
+                    <div class="number">700+</div>
+                    <div class="notion">Happy Clients</div>
+                </div>
+            </div>    
+        </section>
+        <section class="section section_myblog ">
+            <h2 class="flex-center title">My Blog</h2>
+            <div class="flex-container_myblog"> <!-- to do the same on the rest of the containers -->         
+                <div class="my_blog_article">
+                    <div class="my_blog_img">
+                        <img src="Images/Krosovok.jpg" alt="Red sneaker" width="380px" height="337px">
+                        <p class="my_blog_date">25 July 2020</p>
+                    </div>
+                    <div class="my_blog_content">
+                        <div class="my_blog_content_header">
+                            <p>25 comments</p>
+                            <p> 17 likes</p>
+                            <p>By Adams</p>
+                        </div>
+                        <div class="my_blog_content_description">
+                            <p class="blogtext">Design is no just color it <br> speaks visually...</p>
+                        </div> 
+                        <div class="my_blog_content_action">
+                            <p class="whiteText">Read more  <img src="Images/WhiteIcons/Arrow 1.svg" alt="—————>" class="rightarrow" width="32" height="32"></p>
+                        </div>                 
+                    </div>
+                </div>
+                <div class="my_blog_article">
+                    <div class="my_blog_img">
+                        <img src="Images/butylka.jpg" alt="Red sneaker" width="380px" height="337px">
+                        <p class="my_blog_date">29 July 2020</p>
+                    </div>
+                    <div class="my_blog_content">
+                        <div class="my_blog_content_header">
+                            <p>25 comments</p>
+                            <p> 17 likes</p>
+                            <p>By Adams</p>
+                        </div>
+                       
+                        <div class="my_blog_content_description">
+                            <p class="blogtext">Design is no just color it <br> speaks visually...</p>
+                        </div> 
+                        <div class="my_blog_content_action">
+                            <p class="whiteText">Read more  <img src="Images/WhiteIcons/Arrow 1.svg" alt="—————>" class="rightarrow" width="32" height="32"></p>
+                        </div>
+                    </div>                </div>
+                <div class="my_blog_article">
+                    <div class="my_blog_img">
+                        <img src="Images/twitter.jpg" alt="Red sneaker" width="380px" height="337px">
+                        <p class="my_blog_date">27 July 2020</p>
+                    </div>
+                    <div class="my_blog_content">
+                        <div class="my_blog_content_header">
+                            <p>25 comments</p>
+                            <p> 17 likes</p>
+                            <p>By Adams</p>
+                        </div>
+                        <div class="my_blog_content_description">
+                            <p class="blogtext">Design is no just color it <br> speaks visually...</p>
+                        </div> 
+                        <div class="my_blog_content_action">
+                            <p class="whiteText">Read more  <img src="Images/WhiteIcons/Arrow 1.svg" alt="—————>" class="rightarrow" width="32" height="32"></p>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider"> 
+                <div class="space">
+                </div>
+                <img src="Images/BlackIcons/Slider.png"  alt="Slider" width="108" height="20">
+                <div class="arrows">
+                    <img src="Images/BlackIcons/Arrow 2.png" alt="«————" width="24" height="auto">
+                    <img src="Images/BlackIcons/Arrow 1.png" alt="————»" width="24" height="auto">
+                </div>
+            </div> 
+            </section>
+            <section class="section section_hireme">
+                <h2 class="flex-center title">Hire Me For Your Next Amazing Project</h2>
+                <div class="hireme-content">
+                    <div class="hireme-text">
+                        <p>
+                            Let's make somthing new, 
+                            <br> different and more meaningful or 
+                            <br> make thing more visual or 
+                            <br> conceptual? Just say hello! 
+                        </p>
+                        <pre class="extra-information">
+
+
+
+
+
+
+                           
+                            
+
+—  +123 569 789
+
+
+
+—  youremail@gmail.com
+
+
+
+—  28 Green Tower, Street name,   
+      New York City, USA
+                        </pre>
+                        
+                    </div>
+                    <form class="form">
+                        <div class="place-for-filling-in">
+                            <label forHtml="name">Your name</label><br><br>
+                            <input type="text" class="form__text">
+                        </div>
+                        <div class="place-for-filling-in">
+                            <label forHtml="Address">Your email Address</label><br><br>
+                            <input type="email" class="form__text">
+                        </div>
+                        <div class="place-for-filling-in">
+                            <label forHtml="budget">Your budget(Optional)</label><br><br>
+                            <input type="text" class="form__text">
+                        </div>
+                        <div class="place-for-filling-in">
+                            <label forHtml="text">Your project description</label><br><br>
+                            <textarea rows="5" cols="33"></textarea>
+                        </div>
+                        <button>SEND</button>
+                    </form>
                 </div>
             </section>
-                
+            <div class="footer">
+                <div class="social2Networks">
+                    <button class="network"><img src="Images/svgIcons/facebook 1.svg" width="20px" height="20px"></button>
+                    <button class="network"><img src="Images/svgIcons/linkedin-logo 1.svg" width="20px" height="20px"></button>
+                    <button class="network"><img src="Images/svgIcons/behance 1.svg" width="20px" height="20px"></button>
+                    <button class="network"><img src="Images/svgIcons/twitter 1.svg" width="20px" height="20px"></button>
+                    <button class="network"><img src="Images/svgIcons/dribbble 1.svg" width="20px" height="20px"></button>
+                </div>
+            </div>    
 
         </body>
 </html>
